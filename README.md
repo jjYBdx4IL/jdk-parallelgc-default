@@ -17,11 +17,8 @@ the place where you cannot or don't want to change JVM startup params.
 
 So here it is, the default GC reverted back to Java 8 standard.
 
-* [jdk-11.0.4-internal+0_linux-x64_bin.tar.gz](jdk-11.0.4-internal+0_linux-x64_bin.tar.gz?raw=true)
-* [jdk-11.0.4-internal+0_linux-x64_doc-api-spec.tar.gz](jdk-11.0.4-internal+0_linux-x64_doc-api-spec.tar.gz?raw=true)
+* [jdk-11.0.4-feffbffbfdcaaded+0_linux-x64_bin.tar.gz](jdk-11.0.4-feffbffbfdcaaded+0_linux-x64_bin.tar.gz?raw=true)
+* [jdk-11.0.4-feffbffbfdcaaded+0_linux-x64_doc-api-spec.tar.gz](jdk-11.0.4-feffbffbfdcaaded+0_linux-x64_doc-api-spec.tar.gz?raw=true)
 
-And here are the commands that have been used to build it:
-
-https://github.com/jjYBdx4IL/snippets/blob/master/java/openjdk11/build_jdk11_with_parallelgc_as_default.sh
 
 
