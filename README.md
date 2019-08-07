@@ -20,6 +20,9 @@ So here it is, the default GC reverted back to Java 8 standard.
 * [jdk-11.0.4-feffbffbfdcaaded+0_linux-x64_bin.tar.gz](jdk-11.0.4-feffbffbfdcaaded+0_linux-x64_bin.tar.gz?raw=true)
 * [jdk-11.0.4-feffbffbfdcaaded+0_linux-x64_doc-api-spec.tar.gz](jdk-11.0.4-feffbffbfdcaaded+0_linux-x64_doc-api-spec.tar.gz?raw=true)
 
+* [jdk-12.0.2-ddbedcbdfdacefabafac+0_linux-x64_bin.tar.gz](jdk-12.0.2-ddbedcbdfdacefabafac+0_linux-x64_bin.tar.gz?raw=true)
+* [jdk-12.0.2-ddbedcbdfdacefabafac+0_linux-x64_doc-api-spec.tar.gz](jdk-12.0.2-ddbedcbdfdacefabafac+0_linux-x64_doc-api-spec.tar.gz?raw=true)
+
 Test results
 ============
 
