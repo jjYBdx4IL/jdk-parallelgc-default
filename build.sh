@@ -3,7 +3,7 @@
 set -Eex
 set -o pipefail
 
-srcurl=https://github.com/openjdk/jdk11u
+srcurl=https://github.com/openjdk/jdk12u
 tag=$1
 
 if [[ -z $tag ]]; then exit 2; fi
@@ -29,6 +29,7 @@ if (( cnt == 0 )); then exit 3; fi
 bash ./configure --disable-warnings-as-errors --with-version-pre=$commit --with-version-opt="$tag.parallelgcdefault"
 make clean
 time nice make bundles
+./build/linux*/jdk/bin/java -verbose:gc --version | head -n1 | grep -i parallel
 ls -ld build/linux*/bundles/*
 echo Done.
 
